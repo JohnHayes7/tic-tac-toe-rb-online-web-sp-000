@@ -141,5 +141,8 @@ end
 
 
 def play(board)
+  until over?(board) == true
+  turn(board)
+  turn_count(board)
 
 end
