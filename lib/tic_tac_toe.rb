@@ -140,3 +140,4 @@ if won?(board) != false
 end
 
 
+def play(board)
