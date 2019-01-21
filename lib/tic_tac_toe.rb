@@ -145,5 +145,6 @@ def play(board)
   turn(board)
   turn_count(board)
   end
-  if 
+  if won?(board)
+    puts "Congratulations #{winner(board)}!"
 end
