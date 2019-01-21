@@ -50,7 +50,21 @@ def valid_move?(board, index)
 end
 
 
+def turn(board)
+  puts "Please enter 1-9:"
+  user_input = gets.strip
+  index = input_to_index(user_input)
+  token = "X"
 
+  if valid_move?(board, index)
+   move(board, index, token)
+   display_board(board)
+
+
+  elsif valid_move?(board, index) == false
+  turn(board)
+  end
+end
 
 
 def turn_count(board)
