@@ -145,5 +145,4 @@ def play(board)
   turn(board)
   turn_count(board)
   end
-
 end
