@@ -141,5 +141,5 @@ end
 
 
 def play(board)
-
+over?(board) == false
 end
